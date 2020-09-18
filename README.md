@@ -24,6 +24,8 @@ Các url công cộng để chạy:  <br>
 { urls: 'stun:stun.ideasip.com' }, <br>
 { urls: 'stun:stun.iptel.org' }, <br>
 { urls: 'turn:numb.viagenie.ca', username: 'đăng ký rồi nhập', credential: 'đăng ký rồi nhập' }, <br>
+mọi người nhớ vào app/script.js tại dòng 33 để đổi tk mk nha. <br>
+
 { <br>
 urls: [ <br>
 'turn:173.194.72.127:19305?transport=udp', <br>
