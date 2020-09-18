@@ -25,7 +25,7 @@ var ROOM_ID = getRoomName();
 var peerConnection = null;
 
 var ICE_SERVERS = [
-    {urls: 'stun:stun.l.google.com'},
+    {urls: 'stun:stun.l.google.com'}, //:3478 all
     { urls: 'stun:stun.stunprotocol.org' },
     { urls: 'stun:stun.sipnet.net' },
     { urls: 'stun:stun.ideasip.com' },
