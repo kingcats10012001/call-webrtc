@@ -17,20 +17,20 @@ Sử dụng các url công cộng để làm.<br>
 # Credit:
 webrtc: https://webrtc.org <br>
 socket.io: https://socket.io/ <br>
-Các url công cộng để chạy:  {urls: 'stun:stun.l.google.com'},
-                            { urls: 'stun:stun.stunprotocol.org' },
-                            { urls: 'stun:stun.sipnet.net' },
-                            { urls: 'stun:stun.ideasip.com' },
-                            { urls: 'stun:stun.iptel.org' },
-                            { urls: 'turn:numb.viagenie.ca', username: 'đăng ký rồi nhập', credential: 'đăng ký rồi nhập' },
-                            {
-                                urls: [
-                                    'turn:173.194.72.127:19305?transport=udp',
-                                    'turn:[2404:6800:4008:C01::7F]:19305?transport=udp',
-                                    'turn:173.194.72.127:443?transport=tcp',
-                                    'turn:[2404:6800:4008:C01::7F]:443?transport=tcp'
-                                ],
-                                username: 'CKjCuLwFEgahxNRjuTAYzc/s6OMT',
-                                credential: 'u1SQDR/SQsPQIxXNWQT7czc/G4c='
-                            }
-                            
+Các url công cộng để chạy:  <br>
+{urls: 'stun:stun.l.google.com'}, <br>
+{ urls: 'stun:stun.stunprotocol.org' }, <br>
+{ urls: 'stun:stun.sipnet.net' }, <br>
+{ urls: 'stun:stun.ideasip.com' }, <br>
+{ urls: 'stun:stun.iptel.org' }, <br>
+{ urls: 'turn:numb.viagenie.ca', username: 'đăng ký rồi nhập', credential: 'đăng ký rồi nhập' }, <br>
+{ <br>
+urls: [ <br>
+'turn:173.194.72.127:19305?transport=udp', <br>
+'turn:[2404:6800:4008:C01::7F]:19305?transport=udp', <br>
+'turn:173.194.72.127:443?transport=tcp', <br>
+'turn:[2404:6800:4008:C01::7F]:443?transport=tcp' <br>
+], <br>
+username: 'CKjCuLwFEgahxNRjuTAYzc/s6OMT', <br>
+credential: 'u1SQDR/SQsPQIxXNWQT7czc/G4c=' <br>
+} <br>    
