@@ -30,7 +30,7 @@ var ICE_SERVERS = [
     { urls: 'stun:stun.sipnet.net' },
     { urls: 'stun:stun.ideasip.com' },
     { urls: 'stun:stun.iptel.org' },
-    { urls: 'turn:numb.viagenie.ca', username: 'a37181@thanglong.edu.vn', credential: '123456' },
+    { urls: 'turn:numb.viagenie.ca', username: 'đăng ký rồi nhập', credential: 'đăng ký rồi nhập' },
     {
         urls: [
             'turn:173.194.72.127:19305?transport=udp',
