@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/d2f1016e6f.js" crossorigin="anonymous"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    <title>demo-talk</title>
+</head>
+
+<body onload="init()">
+<div id="message">
+	Chia sẻ đường dẫn url cho bạn bè để kết nối.<br/>
+</div>
+<div id="allowaccess">
+	Vui lòng cho phép truy cập máy ảnh và micrô để sử dụng ứng dụng này.
+</div>
+<div id="buttons">
+    <button id="mutebtn" class="fas fa-microphone"></button>
+    <button id="videomutebtn" class="fas fa-video"></button>
+    <button id="swapcamerabtn" class="fas fa-sync-alt"></button>
+    <button id="screensharebtn" class="fas fa-desktop"></button>
+</div>
+</body>
+
+</html>
