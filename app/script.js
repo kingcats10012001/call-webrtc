@@ -26,6 +26,21 @@ var peerConnection = null;
 
 var ICE_SERVERS = [
     {urls: 'stun:stun.l.google.com'},
+    { urls: 'stun:stun.stunprotocol.org' },
+    { urls: 'stun:stun.sipnet.net' },
+    { urls: 'stun:stun.ideasip.com' },
+    { urls: 'stun:stun.iptel.org' },
+    { urls: 'turn:numb.viagenie.ca', username: 'a37181@thanglong.edu.vn', credential: '123456' },
+    {
+        urls: [
+            'turn:173.194.72.127:19305?transport=udp',
+            'turn:[2404:6800:4008:C01::7F]:19305?transport=udp',
+            'turn:173.194.72.127:443?transport=tcp',
+            'turn:[2404:6800:4008:C01::7F]:443?transport=tcp'
+        ],
+        username: 'CKjCuLwFEgahxNRjuTAYzc/s6OMT',
+        credential: 'u1SQDR/SQsPQIxXNWQT7czc/G4c='
+    }
 ];
 
 var signalingSocket = null;
